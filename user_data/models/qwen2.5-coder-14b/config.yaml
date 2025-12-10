@@ -1,0 +1,9 @@
+model_type: qwen2
+max_seq_len: 8192
+rope_scaling: linear
+quantization: q4_K_M
+trust_remote_code: true
+dtype: auto
+gpu_layers: 60
+tensor_parallel: 1
+auto_devices: true
