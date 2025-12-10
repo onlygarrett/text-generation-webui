@@ -1,0 +1,11 @@
+{
+  "temperature": 0.1,
+  "top_p": 0.9,
+  "top_k": 30,
+  "repetition_penalty": 1.08,
+  "max_new_tokens": 4000,
+  "seed": 42,
+  "grammar": "",
+  "sampler_seed": 0,
+  "guidance_scale": 1
+}

@@ -1,0 +1,23 @@
+{
+  "auto_parallel": true,
+  "auto_devices": true,
+  "trust_remote_code": true,
+  "max_seq_len": 8192,
+  "gpu_memory": "12GiB",
+  "wbits": 4,
+  "groupsize": 128,
+  "use_double_quant": true,
+  "cpu_threads": 6,
+  "load_in_8bit": false,
+  "load_in_4bit": true,
+  "stream": true,
+  "chat_prompt_size": 4096,
+  "temperature": 0.1,
+  "top_p": 0.95,
+  "top_k": 40,
+  "repetition_penalty": 1.05,
+  "min_length": 1,
+  "max_new_tokens": 1024,
+  "ban_eos_token": false,
+  "seed": 42
+}
